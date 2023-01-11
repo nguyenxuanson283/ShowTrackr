@@ -284,7 +284,7 @@ nav .login button:first-child{
       cursor: pointer;
       top: 5px;
 }
-.item-images{
+/* .item-images{
     height: 330px;
     width: 100%;
     overflow: hidden;
@@ -300,6 +300,44 @@ nav .login button:first-child{
     display: block;
     object-fit: cover;
     background-size: cover;
+} */
+.slider{
+    height: 330px;
+    margin: auto;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+.slider-track{
+    display: flex;
+    width: calc(220px * 14);
+    animation: scroll 25s linear infinite;
+}
+.slider-track:hover{
+    animation-play-state: paused;
+}
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-220px * 7));
+    }
+}
+.slide{
+    width: 220px;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    perspective: 100px;
+}
+.slide img{
+    width: 100%;
+    cursor: pointer;
+}
+.slide img:hover{
+    transform: translateZ(20px);
+    transition-duration: 0.3s;
 }
 .easy-to-use{
     display: flex;
