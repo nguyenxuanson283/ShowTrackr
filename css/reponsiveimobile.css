@@ -1,0 +1,189 @@
+@media screen and (max-width:460px){
+    header{
+        width: 460px;
+        padding: 10px;
+    }
+    .wrapper{
+        width: 460px;
+    }
+    nav {
+        justify-content: space-between;
+    }
+    nav .menu{
+        display: none;
+    }
+    nav .login button:first-child{
+        display: none;
+    }
+    .banner{
+        height: auto;
+        padding: 10px;
+    }
+    .TracksYourShow{
+        display: block;
+    }
+    .TracksYourShow-title{
+        font-size: 42px;
+        line-height: 44px;
+    }
+    .inputSearch{
+        width: 343px;
+        height: 53px;
+        margin: 10px auto
+    }
+    .inputSearch button{
+        width: 141px;
+        height: 53px;
+    }
+    .inputSearch input{
+        width: 353px;
+    }
+    .compatible{
+        margin:0;
+        margin-top: 60px;
+    }
+    .icon-logo{
+        width: 100%;
+    }
+    .iphone{
+        width: auto;
+        height: 600px;
+        top: 502px;
+        right: 2%;
+        left: 3%;
+        z-index: 1;
+    }
+    .iphone img{
+        
+        object-fit: cover;
+    }
+    .orange{
+        width: 300px;
+        height: 300px;
+        top: 570px;
+        right: -146px;
+    }
+    .gradient{
+        width: 300px;
+        height: 300px;
+        top: 565px;
+        right: -171px;
+    }
+    .background-gradient{
+        width: 300px;
+        height: 300px;
+        top: -247px;
+    }
+    .main{
+        margin-top: 840px;
+    }
+    .builtandcustomized{
+        margin-top: 140px;
+        align-items: flex-start;
+        width: 100%;
+        padding-left: 10px;
+    }
+    .builtandcustomized h1{
+        font-size: 35px;
+        width: 343px;
+        padding: 0;
+        height: auto;
+        margin-bottom: 15px;
+    }
+    .builtandcustomized h3{
+        font-size: 16px;
+        text-align: left;
+    }
+    .features{
+        text-align: left;
+        width: 100%;
+        padding: 10px;
+    }
+    .action{
+        display: block;
+        margin-top: 30px;
+        padding: 10px;
+    }
+    .images-play, .images-machine, .images-smart{
+        width: 50px;
+        height: 50px;
+        border-radius: 14px;
+        margin: 0;
+    }
+    .action-item{
+        width: 100%;
+        align-items: flex-start;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    .images-easy-to-use img, .iphone-mockup {
+        display: none;
+    }
+    .user-comment{
+        display: block;
+        padding: 10px;
+        overflow:hidden;
+        height: auto;
+        width: 460px;
+    }
+    .community{
+        width: 460px;
+    }
+    .community h1{
+        font-size: 35px;
+    }
+    .left, .right{
+        margin-top: 61px;
+        flex-direction: row;
+        height: 211px;
+    }
+    .comment{
+        width: calc(260px * 11);
+        position: relative;
+        animation: scroll 10s linear infinite;
+    }
+    @keyframes scroll {
+        0%{
+            transform: translateX(0);
+        }
+        100%{
+            transform: translateX(calc(-260px * 10));
+        }
+    }
+    .start-tracking h1{
+        font-size: 35px;
+    }
+    .easy-to-use{
+        margin:0;
+        width: 460px;
+    }
+    .easy-to-use-interfaces{
+        padding: 10px;
+        width: 460px;
+    }
+    .start-tracking{
+        width: 460px;
+        height: auto;
+    }
+    .start-tracking h1{
+        width: 100%;
+        height: auto;
+        padding: 0 40px;
+    }
+    .start-tracking p{
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        padding: 0 20px;
+    }
+    .bottom{
+        width: 100%;
+        margin: 100px auto;
+    }
+    .bottom div p{
+        font-size: 13px;
+    }
+    .inputSearch-bottom input{
+        width: 343px;
+    }
+}

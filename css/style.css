@@ -57,6 +57,9 @@ nav .login button:first-child{
     background: unset;
     color: unset;
 }
+img{
+    object-fit: cover;
+}
 .wrapper{
     background: #FFFFFF;
     width: 100%;
