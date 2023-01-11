@@ -52,6 +52,7 @@
         right: 2%;
         left: 3%;
         z-index: 1;
+
     }
     .iphone img{
         
@@ -136,6 +137,7 @@
         margin-top: 61px;
         flex-direction: row;
         height: 211px;
+        animation: unset;
     }
     .comment{
         width: calc(260px * 11);
