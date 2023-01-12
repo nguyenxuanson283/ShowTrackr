@@ -6,15 +6,6 @@
     .wrapper{
         width: 460px;
     }
-    nav {
-        justify-content: space-between;
-    }
-    nav .menu{
-        display: none;
-    }
-    nav .login button:first-child{
-        display: none;
-    }
     .banner{
         height: auto;
         padding: 10px;
@@ -53,7 +44,6 @@
         right: 2%;
         left: 3%;
         z-index: 1;
-
     }
     .iphone img{
         object-fit: cover;

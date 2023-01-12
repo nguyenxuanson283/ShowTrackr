@@ -142,18 +142,61 @@
     }
 }
 @media screen and (max-width:768px){
-    nav{
+    .menuMobile{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
         padding: 10px;
     }
-    nav .menu{
+    .banner{
+        height: 325px;
+        padding: 10px;
+    }
+    .mobileMenu{
+        position: absolute;
+        width: 30%;
+        z-index: 2;
+    }
+    .mobileMenu ul {
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .mobileMenu ul li{
+        background: #DADADA;
+        border-bottom: 1px solid #DADADA;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .mobileMenu ul li:hover{
+        transform: translateX(20px);
+        transition-duration: 0.5s;
+    }
+    .menuMobile .logoMobile span:last-child{
+        color: #540CFA;
+    }
+    .logoMobile {
+        cursor: pointer;
+    }
+    .loginMobile button{
+         width: 102px;
+         height: 32px;
+         background:#540CFA;
+         color: #FFFFFF;
+         font-size: 14px;
+    }
+    .loginMobile button:first-child{
         display: none;
     }
-    nav .login button:first-child{
+    .mobileMenu{
+        position: absolute;
+        left: -1000px;
+    }
+    nav{
         display: none;
-    }
-    nav {
-        justify-content: space-between;
-    }
+    };   
     .banner{
         height: auto;
         padding: 10px;

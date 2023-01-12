@@ -12,330 +12,350 @@
 </head>
 
 <body>
-  <header>
-    <nav>
-      <div class="logo">
-        <h1><span>Show</span><span>Trackr</span></h1>
-      </div>
-      <div class="menu">
-        <ul>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Community</a></li>
-          <li><a href="#">Get Started</a></li>
-        </ul>
-      </div>
-      <div class="login">
-        <button>Login</button>
-        <button>Get started</button>
-      </div>
-    </nav>
-  </header>
-  <div class="wrapper">
-    <div class="banner">
-      <div class="TracksYourShow">
-        <div class="TracksYourShow-title">
-          Track your shows automatically
+  <div class="container" id="container" onclick="outSide()">
+  </div>
+    <header>
+      <div class="menuMobile" id="menuMobile">
+        <div class="logoMobile">
+          <h1 onclick="check()"><span>Show</span><span>Trackr</span></h1>
         </div>
-        <div class="TracksYourShow-content">
-          With ShowTrackr you can track your favorite TV shows automatically, so you never loose track of your TV shows
-          ever again. 🍿
+        <div class="loginMobile">
+          <button>Login</button>
+          <button>Get started</button>
         </div>
-        <div class="inputSearch">
-          <input type="text" id="input1" placeholder="your@email.com" aria-placeholder="email">
-          <label for="input1"><button>Start tracking</button></label>
-          <a href="#">email</a>
+        <div class="mobileMenu" id="mobileMenu">
+          <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Get Started</a></li>
+          </ul>
         </div>
       </div>
-      <div class="background">
-        <div class="orange">
+      <nav>
+        <div class="logo">
+          <h1><span>Show</span><span>Trackr</span></h1>
         </div>
-        <div class="gradient"></div>
+        <div class="menu">
+          <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Get Started</a></li>
+          </ul>
+        </div>
+        <div class="login">
+          <button>Login</button>
+          <button>Get started</button>
+        </div>
+      </nav>
+     
+    </header>
+    <div class="wrapper">
+      <div class="banner">
+        <div class="TracksYourShow">
+          <div class="TracksYourShow-title">
+            Track your shows automatically
+          </div>
+          <div class="TracksYourShow-content">
+            With ShowTrackr you can track your favorite TV shows automatically, so you never loose track of your TV shows
+            ever again. 🍿
+          </div>
+          <div class="inputSearch">
+            <input type="text" id="input1" placeholder="your@email.com" aria-placeholder="email">
+            <label for="input1"><button>Start tracking</button></label>
+            <a href="#">email</a>
+          </div>
+        </div>
+        <div class="background">
+          <div class="orange">
+          </div>
+          <div class="gradient"></div>
+        </div>
+        <div class="iphone">
+          <img src="./images/iphone-x-mockup.png" alt="">
+        </div>
       </div>
-      <div class="iphone">
+      <div class="compatible">
+        <h4>compatible with</h4>
+        <div class="icon-logo">
+          <div><img src="./images/netflix.png" alt=""></div>
+          <div><img src="./images/apple.png" alt=""></div>
+          <div><img src="./images/android.png" alt=""></div>
+          <div><img src="./images/windows.png" alt=""></div>
+          <div><img src="./images/synology.png" alt=""></div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="background-gradient"></div>
+        <div class="features">
+          <div class="builtandcustomized">
+            <h3>Features</h3>
+            <h1>Built and customized for your habits </h1>
+            <p>ShowTrackr’s built-in machine learning and
+              context-aware features guarantee that all the notifications and recommendations
+              are always delivered to you in the perfect moment.</p>
+          </div>
+          <div class="action">
+            <div class="action-item">
+              <div class="images-play">
+                <img src="./images/play.png" alt="">
+              </div>
+              <div class="title-action">
+                <h1>Automated tracking</h1>
+              </div>
+              <div class="content-action">
+                <p>Track your favorite shows automatically without switching between apps.</p>
+              </div>
+              <div class="learnmore">
+                <button>Learn More</button>
+                <div class="next-btn"></div>
+              </div>
+            </div>
+            <div class="action-item">
+              <div class="images-machine">
+                <img src="./images/machine-learning.png" alt="">
+              </div>
+              <div class="title-action">
+                <h1>Automated tracking</h1>
+              </div>
+              <div class="content-action">
+                <p>Track your favorite shows automatically without switching between apps.</p>
+              </div>
+              <div class="learnmore">
+                <button>Learn More</button>
+                <div class="next-btn"></div>
+              </div>
+            </div>
+            <div class="action-item">
+              <div class="images-smart">
+                <img src="./images/smart-notifications.png" alt="">
+              </div>
+              <div class="title-action">
+                <h1>Automated tracking</h1>
+              </div>
+              <div class="content-action">
+                <p>Track your favorite shows automatically without switching between apps.</p>
+              </div>
+              <div class="learnmore">
+                <button>Learn More</button>
+                <div class="next-btn"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slider" onclick="slideScroll(this)">
+        <div class="slider-track" id="slider">
+          <div class="slide"><img src="./images/Rectangle 7 Copy 6.png" alt=""></div>
+          <div class="slide"><img src="./images/Rectangle 7.png" alt=""></div>
+          <div class="slide"><img src="./images/Rectangle 7 Copy.png" alt=""></div>
+          <div class="slide"><img src="./images/Rectangle 7 Copy 2.png" alt=""></div>
+          <div class="slide"><img src="./images/Rectangle 7 Copy 3.png" alt=""></div>
+          <div class="slide"><img src="./images/Rectangle 7 Copy 4.png" alt=""></div>
+          <div class="slide"><img src="./images/Rectangle 7 Copy 5.png" alt=""></div>
+          <div class="slide"><img src="./images/Rectangle 7 Copy 6.png" alt=""></div>
+          <div class="slide"><img src="./images/Rectangle 7.png" alt=""></div>
+          <div class="slide"><img src="./images/Rectangle 7 Copy.png" alt=""></div>
+          <div class="slide"><img src="./images/Rectangle 7 Copy 2.png" alt=""></div>
+          <div class="slide"><img src="./images/Rectangle 7 Copy 3.png" alt=""></div>
+          <div class="slide"><img src="./images/Rectangle 7 Copy 4.png" alt=""></div>
+          <div class="slide"><img src="./images/Rectangle 7 Copy 5.png" alt=""></div>
+        </div>
+      </div>
+    </div>
+    <div class="easy-to-use">
+      <div class="easy-to-use-interfaces">
+        <h1>Easy-to-use interfaces on every platform</h1>
+        <p>Since most of our features work in a completely automated way, you will
+          mainly use our apps to discover new TV shows recommended for you and discuss
+          the most interesting episodes with like-minded people.</p>
+        <div class="customized">
+          <div><img src="./images/dashboard.png" alt=""></div>
+          <span>Customized Dashboard</span>
+        </div>
+        <div class="customized">
+          <div><img src="./images/night-mode.png" alt=""></div>
+          <span style="opacity: 0.5;">Automatic Day & Night Modes</span>
+        </div>
+        <div class="customized">
+         <div><img src="./images/chat.png" alt=""></div>
+          <span style="opacity: 0.5;">Integrated Chat Platform</span>
+        </div>
+      </div>
+      <div class="iphone-mockup">
         <img src="./images/iphone-x-mockup.png" alt="">
       </div>
-    </div>
-    <div class="compatible">
-      <h4>compatible with</h4>
-      <div class="icon-logo">
-        <div><img src="./images/netflix.png" alt=""></div>
-        <div><img src="./images/apple.png" alt=""></div>
-        <div><img src="./images/android.png" alt=""></div>
-        <div><img src="./images/windows.png" alt=""></div>
-        <div><img src="./images/synology.png" alt=""></div>
+      <div class="images-easy-to-use">
+        <img src="./images/web-app-mockup.png" alt="">
       </div>
     </div>
-    <div class="main">
-      <div class="background-gradient"></div>
-      <div class="features">
-        <div class="builtandcustomized">
-          <h3>Features</h3>
-          <h1>Built and customized for your habits </h1>
-          <p>ShowTrackr’s built-in machine learning and
-            context-aware features guarantee that all the notifications and recommendations
-            are always delivered to you in the perfect moment.</p>
-        </div>
-        <div class="action">
-          <div class="action-item">
-            <div class="images-play">
-              <img src="./images/play.png" alt="">
-            </div>
-            <div class="title-action">
-              <h1>Automated tracking</h1>
-            </div>
-            <div class="content-action">
-              <p>Track your favorite shows automatically without switching between apps.</p>
-            </div>
-            <div class="learnmore">
-              <button>Learn More</button>
-              <div class="next-btn"></div>
-            </div>
-          </div>
-          <div class="action-item">
-            <div class="images-machine">
-              <img src="./images/machine-learning.png" alt="">
-            </div>
-            <div class="title-action">
-              <h1>Automated tracking</h1>
-            </div>
-            <div class="content-action">
-              <p>Track your favorite shows automatically without switching between apps.</p>
-            </div>
-            <div class="learnmore">
-              <button>Learn More</button>
-              <div class="next-btn"></div>
-            </div>
-          </div>
-          <div class="action-item">
-            <div class="images-smart">
-              <img src="./images/smart-notifications.png" alt="">
-            </div>
-            <div class="title-action">
-              <h1>Automated tracking</h1>
-            </div>
-            <div class="content-action">
-              <p>Track your favorite shows automatically without switching between apps.</p>
-            </div>
-            <div class="learnmore">
-              <button>Learn More</button>
-              <div class="next-btn"></div>
-            </div>
-          </div>
+    <div class="user-comment">
+      <div class="community">
+        <h3>Community</h3>
+        <h1>We believe in the power of community</h1>
+        <p>Our goal is to create a product and service that you’re satisfied with and use it every day.
+          This is why we’re constantly working on our services to make it better every day and really
+          listen to what our users has to say.</p>
+        <div class="button-community">
+          <button>Read more testimonials</button>
         </div>
       </div>
-    </div>
-    <div class="slider">
-      <div class="slider-track">
-        <div class="slide"><img src="./images/Rectangle 7 Copy 6.png" alt=""></div>
-        <div class="slide"><img src="./images/Rectangle 7.png" alt=""></div>
-        <div class="slide"><img src="./images/Rectangle 7 Copy.png" alt=""></div>
-        <div class="slide"><img src="./images/Rectangle 7 Copy 2.png" alt=""></div>
-        <div class="slide"><img src="./images/Rectangle 7 Copy 3.png" alt=""></div>
-        <div class="slide"><img src="./images/Rectangle 7 Copy 4.png" alt=""></div>
-        <div class="slide"><img src="./images/Rectangle 7 Copy 5.png" alt=""></div>
-        <div class="slide"><img src="./images/Rectangle 7 Copy 6.png" alt=""></div>
-        <div class="slide"><img src="./images/Rectangle 7.png" alt=""></div>
-        <div class="slide"><img src="./images/Rectangle 7 Copy.png" alt=""></div>
-        <div class="slide"><img src="./images/Rectangle 7 Copy 2.png" alt=""></div>
-        <div class="slide"><img src="./images/Rectangle 7 Copy 3.png" alt=""></div>
-        <div class="slide"><img src="./images/Rectangle 7 Copy 4.png" alt=""></div>
-        <div class="slide"><img src="./images/Rectangle 7 Copy 5.png" alt=""></div>
-      </div>
-    </div>
-  </div>
-  <div class="easy-to-use">
-    <div class="easy-to-use-interfaces">
-      <h1>Easy-to-use interfaces on every platform</h1>
-      <p>Since most of our features work in a completely automated way, you will
-        mainly use our apps to discover new TV shows recommended for you and discuss
-        the most interesting episodes with like-minded people.</p>
-      <div class="customized">
-        <div><img src="./images/dashboard.png" alt=""></div>
-        <span>Customized Dashboard</span>
-      </div>
-      <div class="customized">
-        <div><img src="./images/night-mode.png" alt=""></div>
-        <span style="opacity: 0.5;">Automatic Day & Night Modes</span>
-      </div>
-      <div class="customized">
-       <div><img src="./images/chat.png" alt=""></div>
-        <span style="opacity: 0.5;">Integrated Chat Platform</span>
-      </div>
-    </div>
-    <div class="iphone-mockup">
-      <img src="./images/iphone-x-mockup.png" alt="">
-    </div>
-    <div class="images-easy-to-use">
-      <img src="./images/web-app-mockup.png" alt="">
-    </div>
-  </div>
-  <div class="user-comment">
-    <div class="community">
-      <h3>Community</h3>
-      <h1>We believe in the power of community</h1>
-      <p>Our goal is to create a product and service that you’re satisfied with and use it every day.
-        This is why we’re constantly working on our services to make it better every day and really
-        listen to what our users has to say.</p>
-      <div class="button-community">
-        <button>Read more testimonials</button>
-      </div>
-    </div>
-    <div class="comment">
-      <div class="left">
-        <div class="card-item">
-          <div class="header-card">
-            <a href="#"><img src="./images/7599ed13e55f7c3c514a8bdfd55a34fb9059860c.png" alt="" />Andrew Cook</a>
-            <img src="./images/Shape.png" alt="">
+      <div class="comment">
+        <div class="left">
+          <div class="card-item">
+            <div class="header-card">
+              <a href="#"><img src="./images/7599ed13e55f7c3c514a8bdfd55a34fb9059860c.png" alt="" />Andrew Cook</a>
+              <img src="./images/Shape.png" alt="">
+            </div>
+            <div class="card-content">
+              <p>I use ShowTrackr every day, and it’s awesome! I track all of my TV shows in it. :) </p>
+            </div>
+            <div class="card-date">
+              <p>Jan 18, 2018</p>
+            </div>
           </div>
-          <div class="card-content">
-            <p>I use ShowTrackr every day, and it’s awesome! I track all of my TV shows in it. :) </p>
+          <div class="card-item">
+            <div class="header-card">
+              <a href="#"><img src="./images/3b3dbeead432f4da73eaf29e922cf0009bd6c671.png" alt="" />Patrick Martin</a>
+              <img src="./images/Shape.png" alt="">
+            </div>
+            <div class="card-content">
+              <p>ShowTrackr is a real gem! I started using it a couple months ago and it completely changed the way how I
+                watch TV shows.
+                I can only recommend it! </p>
+            </div>
+            <div class="card-date">
+              <p>Jan 18, 2018</p>
+            </div>
           </div>
-          <div class="card-date">
-            <p>Jan 18, 2018</p>
+          <div class="card-item">
+            <div class="header-card">
+              <a href="#"><img src="./images/fdbfce9e8918e84837e89a85ac5a573f5a3e1496.png" alt="" />Bruce Murphy</a>
+              <img src="./images/Shape.png" alt="">
+            </div>
+            <div class="card-content">
+              <p>I use ShowTrackr every day, and it’s awesome! I track all of my TV shows in it. :) </p>
+            </div>
+            <div class="card-date">
+              <p>Jan 18, 2018</p>
+            </div>
+          </div>
+          <div class="card-item">
+            <div class="header-card">
+              <a href="#"><img src="./images/4f8ea039214f6696a2a64b63aa30fa658a4aff54.png" alt="" />Crystal Perkins</a>
+              <img src="./images/Shape.png" alt="">
+            </div>
+            <div class="card-content">
+              <p>ShowTrackr is a real gem! I started using it a couple months ago and it completely changed the way how I
+                watch TV shows.
+                I can only recommend it! </p>
+            </div>
+            <div class="card-date">
+              <p>Jan 18, 2018</p>
+            </div>
+          </div>
+          <div class="card-item">
+            <div class="header-card">
+              <a href="#"><img src="./images/fdbfce9e8918e84837e89a85ac5a573f5a3e1496.png" alt="" />Bruce Murphy</a>
+              <img src="./images/Shape.png" alt="">
+            </div>
+            <div class="card-content">
+              <p>“I use ShowTrackr every day, and it’s awesome! I track all of my TV shows in it. :) “ </p>
+            </div>
+            <div class="card-date">
+              <p>Jan 18, 2018</p>
+            </div>
           </div>
         </div>
-        <div class="card-item">
-          <div class="header-card">
-            <a href="#"><img src="./images/3b3dbeead432f4da73eaf29e922cf0009bd6c671.png" alt="" />Patrick Martin</a>
-            <img src="./images/Shape.png" alt="">
+        <div class="right">
+          <div class="card-item">
+            <div class="header-card">
+              <a href="#"><img src="./images/720bd7daf197052f23a65a917f8e24164d59e82f.png" alt="" />Andrew Cook</a>
+              <img src="./images/Shape.png" alt="">
+            </div>
+            <div class="card-content">
+              <p>“I use ShowTrackr every day, and it’s awesome! I track all of my TV shows in it. :) “</p>
+            </div>
+            <div class="card-date">
+              <p>Jan 18, 2018</p>
+            </div>
           </div>
-          <div class="card-content">
-            <p>ShowTrackr is a real gem! I started using it a couple months ago and it completely changed the way how I
-              watch TV shows.
-              I can only recommend it! </p>
+          <div class="card-item">
+            <div class="header-card">
+              <a href="#"><img src="./images/fb9624cecfe6a86df836acb469f2141b0452ecc0.png" alt="" />Thomas Cruz</a>
+              <img src="./images/Shape.png" alt="">
+            </div>
+            <div class="card-content">
+              <p>ShowTrackr is a real gem! I started using it a
+                couple months ago and it completely changed the way how I watch TV shows. I can only recommend it! </p>
+            </div>
+            <div class="card-date">
+              <p>Jan 18, 2018</p>
+            </div>
           </div>
-          <div class="card-date">
-            <p>Jan 18, 2018</p>
+          <div class="card-item">
+            <div class="header-card">
+              <a href="#"><img src="./images/28c55179293cd5639628a76ed5c3bf498cbeca56.png" alt="" />Gregory Wallace</a>
+              <img src="./images/Shape.png" alt="">
+            </div>
+            <div class="card-content">
+              <p>I use ShowTrackr every day, and it’s awesome! I track all of my TV shows in it. :) </p>
+            </div>
+            <div class="card-date">
+              <p>Jan 18, 2018</p>
+            </div>
           </div>
-        </div>
-        <div class="card-item">
-          <div class="header-card">
-            <a href="#"><img src="./images/fdbfce9e8918e84837e89a85ac5a573f5a3e1496.png" alt="" />Bruce Murphy</a>
-            <img src="./images/Shape.png" alt="">
+          <div class="card-item">
+            <div class="header-card">
+              <a href="#"><img src="./images/af7d3f54a5c3dd453fe47f3ffa38dd5bba4fac24.png" alt="" />Megan Walters</a>
+              <img src="./images/Shape.png" alt="">
+            </div>
+            <div class="card-content">
+              <p>ShowTrackr is a real gem! I started using it a couple months ago and it completely changed the way how I
+                watch TV shows.
+                I can only recommend it! </p>
+            </div>
+            <div class="card-date">
+              <p>Jan 18, 2018</p>
+            </div>
           </div>
-          <div class="card-content">
-            <p>I use ShowTrackr every day, and it’s awesome! I track all of my TV shows in it. :) </p>
-          </div>
-          <div class="card-date">
-            <p>Jan 18, 2018</p>
-          </div>
-        </div>
-        <div class="card-item">
-          <div class="header-card">
-            <a href="#"><img src="./images/4f8ea039214f6696a2a64b63aa30fa658a4aff54.png" alt="" />Crystal Perkins</a>
-            <img src="./images/Shape.png" alt="">
-          </div>
-          <div class="card-content">
-            <p>ShowTrackr is a real gem! I started using it a couple months ago and it completely changed the way how I
-              watch TV shows.
-              I can only recommend it! </p>
-          </div>
-          <div class="card-date">
-            <p>Jan 18, 2018</p>
-          </div>
-        </div>
-        <div class="card-item">
-          <div class="header-card">
-            <a href="#"><img src="./images/fdbfce9e8918e84837e89a85ac5a573f5a3e1496.png" alt="" />Bruce Murphy</a>
-            <img src="./images/Shape.png" alt="">
-          </div>
-          <div class="card-content">
-            <p>“I use ShowTrackr every day, and it’s awesome! I track all of my TV shows in it. :) “ </p>
-          </div>
-          <div class="card-date">
-            <p>Jan 18, 2018</p>
-          </div>
-        </div>
-      </div>
-      <div class="right">
-        <div class="card-item">
-          <div class="header-card">
-            <a href="#"><img src="./images/720bd7daf197052f23a65a917f8e24164d59e82f.png" alt="" />Andrew Cook</a>
-            <img src="./images/Shape.png" alt="">
-          </div>
-          <div class="card-content">
-            <p>“I use ShowTrackr every day, and it’s awesome! I track all of my TV shows in it. :) “</p>
-          </div>
-          <div class="card-date">
-            <p>Jan 18, 2018</p>
-          </div>
-        </div>
-        <div class="card-item">
-          <div class="header-card">
-            <a href="#"><img src="./images/fb9624cecfe6a86df836acb469f2141b0452ecc0.png" alt="" />Thomas Cruz</a>
-            <img src="./images/Shape.png" alt="">
-          </div>
-          <div class="card-content">
-            <p>ShowTrackr is a real gem! I started using it a
-              couple months ago and it completely changed the way how I watch TV shows. I can only recommend it! </p>
-          </div>
-          <div class="card-date">
-            <p>Jan 18, 2018</p>
-          </div>
-        </div>
-        <div class="card-item">
-          <div class="header-card">
-            <a href="#"><img src="./images/28c55179293cd5639628a76ed5c3bf498cbeca56.png" alt="" />Gregory Wallace</a>
-            <img src="./images/Shape.png" alt="">
-          </div>
-          <div class="card-content">
-            <p>I use ShowTrackr every day, and it’s awesome! I track all of my TV shows in it. :) </p>
-          </div>
-          <div class="card-date">
-            <p>Jan 18, 2018</p>
-          </div>
-        </div>
-        <div class="card-item">
-          <div class="header-card">
-            <a href="#"><img src="./images/af7d3f54a5c3dd453fe47f3ffa38dd5bba4fac24.png" alt="" />Megan Walters</a>
-            <img src="./images/Shape.png" alt="">
-          </div>
-          <div class="card-content">
-            <p>ShowTrackr is a real gem! I started using it a couple months ago and it completely changed the way how I
-              watch TV shows.
-              I can only recommend it! </p>
-          </div>
-          <div class="card-date">
-            <p>Jan 18, 2018</p>
-          </div>
-        </div>
-        <div class="card-item">
-          <div class="header-card">
-            <a href="#"><img src="./images/06b02f7e023bedfe89faecde090634aeab9b17db.png" alt="" />Andrew Cook</a>
-            <img src="./images/Shape.png" alt="">
-          </div>
-          <div class="card-content">
-            <p>“I use ShowTrackr every day, and it’s awesome! I track all of my TV shows in it. :) “ </p>
-          </div>
-          <div class="card-date">
-            <p>Jan 18, 2018</p>
+          <div class="card-item">
+            <div class="header-card">
+              <a href="#"><img src="./images/06b02f7e023bedfe89faecde090634aeab9b17db.png" alt="" />Andrew Cook</a>
+              <img src="./images/Shape.png" alt="">
+            </div>
+            <div class="card-content">
+              <p>“I use ShowTrackr every day, and it’s awesome! I track all of my TV shows in it. :) “ </p>
+            </div>
+            <div class="card-date">
+              <p>Jan 18, 2018</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="start-tracking">
-    <h3>Get Started</h3>
-    <h1>Start tracking your TV shows for free </h1>
-    <p>In order to start tracking your TV shows, all you have to do is enter your email address.
-      Everything else will be taken care of by us. All you have to do is sit back,
-      relax and enjoy your TV shows.</p>
-    <div class="inputSearch-bottom">
-      <input type="text" id="input2" placeholder="your@email.com">
-      <label for="input2"><button>Start tracking</button></label>
-      <a href="#">email</a>
-    </div>
-    <div class="bottom">
-      <ul>
-        <li><a href="#"><img src="./images/Shape (3).png" alt="shape"></a></li>
-        <li><a href="#"><img src="./images/Shape (1).png" alt="facebook"></a></li>
-        <li><a href="#"><img src="./images/Shape (2).png" alt="youtube"></a></li>
-      </ul>
-      <div>
-        <p>Copyright 2018 All rights reserved — Designed by Daniel Korpai</p>
+    <div class="start-tracking">
+      <h3>Get Started</h3>
+      <h1>Start tracking your TV shows for free </h1>
+      <p>In order to start tracking your TV shows, all you have to do is enter your email address.
+        Everything else will be taken care of by us. All you have to do is sit back,
+        relax and enjoy your TV shows.</p>
+      <div class="inputSearch-bottom">
+        <input type="text" id="input2" placeholder="your@email.com">
+        <label for="input2"><button>Start tracking</button></label>
+        <a href="#">email</a>
+      </div>
+      <div class="bottom">
+        <ul>
+          <li><a href="#"><img src="./images/Shape (3).png" alt="shape"></a></li>
+          <li><a href="#"><img src="./images/Shape (1).png" alt="facebook"></a></li>
+          <li><a href="#"><img src="./images/Shape (2).png" alt="youtube"></a></li>
+        </ul>
+        <div>
+          <p>Copyright 2018 All rights reserved — Designed by Daniel Korpai</p>
+        </div>
       </div>
     </div>
-  </div>
+
   <script src="./javascript/main.js"></script>
 </body>
 

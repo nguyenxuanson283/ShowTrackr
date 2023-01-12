@@ -22,6 +22,7 @@ body{
 header{
     width: 100%;
     background-color: #FFFFFF;
+    position: relative;
 }
 nav{
     width: 100%;
@@ -30,11 +31,15 @@ nav{
     height: 50px;
     line-height: 50px;
 }
+
+.menuMobile{
+  display: none;
+}
 nav .logo span{
     font-size: 18px;
     font-weight: 400;
 }
-nav .logo span + span{
+nav .logo span:last-child{
     color: #540CFA;
     
 }
