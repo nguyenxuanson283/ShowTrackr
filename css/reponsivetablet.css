@@ -105,6 +105,13 @@
     }
 }
 @media screen and (max-width:880px) {
+    .orange, .gradient{
+        width: 500px;
+        height: 500px;
+    }
+    .iphone{
+        right: 130px;
+    }
     .iphone-mockup img{
     top: 60px;
     right: -85px;
