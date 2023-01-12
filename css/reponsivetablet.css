@@ -1,0 +1,356 @@
+@media screen and (max-width:1366px){
+    .TracksYourShow-title{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width:1300px){
+    .iphone-mockup img{
+        top: 118px;
+        right: -141px;
+    }
+    .comment{
+        width: 45%;
+    }
+}
+@media screen and (max-width:1188px){
+    .TracksYourShow-title{
+        font-size: 50px;
+    }
+    .iphone-mockup img{
+        top: 101px;
+        right: -141px;
+    }
+    .easy-to-use{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .comment{
+        width: 50%;
+    }
+}
+@media screen and (max-width:1024px){
+    .TracksYourShow-title{
+        font-size: 40px;
+    }
+    .TracksYourShow-content{
+        font-size: 18px;
+    }
+    .inputSearch{
+        margin-top: 30px;
+        width: 80%;
+        display: block;
+         margin: 20px auto;
+    }
+    .iphone{
+        right: 215px;
+    }
+    .builtandcustomized h1{
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+    .builtandcustomized p{
+        font-size: 18px;
+    }
+    .images-play, .images-machine, .images-smart{
+        width: 40px;
+        height: 40px;
+    }
+    .title-action h1{
+        font-size: 16px;
+    }
+    .content-action p{
+        font-weight: 14px;
+    }
+    .learnmore{
+        margin-top: 5px;
+    }
+    .easy-to-use{
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .iphone-mockup img {
+        position: absolute;
+        top: 70px;
+        right: -99px;
+        width: 100%;
+    }
+    .community{
+        width: 30%;
+    }
+    .community h1{
+        font-size: 30px;
+    }
+    .community p{
+        font-size: 16px;
+    }
+    .comment{
+        width: 55%;
+        column-gap: 10px;
+    }
+    .start-tracking h1{
+        font-size: 40px;
+        height: auto;
+    }
+    .start-tracking{
+        height: 556px;
+        margin-top: 86px auto;
+    }
+    .start-tracking p{
+        margin-top: 0;
+    }
+}
+@media screen and (max-width:930px) {
+    .comment{
+        width: 60%;
+    }
+}
+@media screen and (max-width:880px) {
+    .iphone-mockup img{
+    top: 60px;
+    right: -85px;
+    }
+    .TracksYourShow-title{
+        font-size: 30px;
+        grid-column: 2/6;
+    }
+    .TracksYourShow-content{
+        font-size: 14px;
+    }
+    .iphone-mockup{
+        height: auto;
+    }
+    .community p{
+        font-size: 14px;
+    }
+    .inputSearch{
+        width: 100%;
+    }
+    .button-community button{
+        width: 178px;
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    .comment{
+        width: 64%;
+    }
+}
+@media screen and (max-width:768px){
+    nav{
+        padding: 10px;
+    }
+    nav .menu{
+        display: none;
+    }
+    nav .login button:first-child{
+        display: none;
+    }
+    nav {
+        justify-content: space-between;
+    }
+    .banner{
+        height: auto;
+        padding: 10px;
+    }
+    .TracksYourShow{
+        display: block;
+    }
+    .TracksYourShow-title{
+        font-size: 42px;
+        line-height: 44px;
+    }
+    .TracksYourShow-content{
+        font-size: 20px;
+    }
+    .builtandcustomized h1{
+        font-size: 30px;
+    }
+    .inputSearch{
+        width: 80%;
+        margin: 20px auto;
+    }
+    .easy-to-use-interfaces h1{
+        font-size: 30px;
+    }
+    .images-easy-to-use img, .iphone-mockup {
+        display: none;
+    }
+    .easy-to-use-interfaces{
+        width: 100%;
+    }
+    .easy-to-use-interfaces p{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .user-comment{
+        display: block;
+        padding: 10px;
+        overflow:hidden;
+        height: auto;
+        width: 100%;
+    }
+    .community{
+        width: 100%;
+        margin-top: 80px;
+        height: auto;
+    }
+    .community h1{
+        font-size: 35px;
+    }
+    .left, .right{
+        margin-top: 61px;
+        flex-direction: row;
+        height: 211px;
+        animation: unset;
+    }
+    .comment{
+        width: calc(260px * 11);
+        position: relative;
+        animation: scroll 10s linear infinite;
+    }
+    @keyframes scroll {
+        0%{
+            transform: translateX(0);
+        }
+        100%{
+            transform: translateX(calc(-260px * 10));
+        }
+    }
+    .compatible{
+        margin:0;
+        margin-top: 60px;
+    }
+    .icon-logo{
+        width: 100%;
+    }
+    .iphone{
+        width: 470px;
+        height: 600px;
+        top: 502px;
+        z-index: 1;
+        right: 140px;
+    }
+    .iphone img{
+        
+        object-fit: cover;
+    }
+    .orange{
+        width: 400px;
+        height: 400px;
+        top: 570px;
+        right: -146px;
+    }
+    .gradient{
+        width: 400px;
+        height: 400px;
+        top: 565px;
+        right: -171px;
+    }
+    .background-gradient{
+        width: 300px;
+        height: 300px;
+        top: -115px;
+    }
+    .main{
+        margin-top: 840px;
+    }
+    .builtandcustomized{
+        margin-top: 140px;
+        align-items: flex-start;
+        width: 100%;
+        padding-left: 10px;
+    }
+    .builtandcustomized h1{
+        font-size: 35px;
+        width: 343px;
+        padding: 0;
+        height: auto;
+        margin-bottom: 15px;
+    }
+    .builtandcustomized h3{
+        font-size: 16px;
+        text-align: left;
+    }
+    .features{
+        text-align: left;
+        width: 100%;
+        padding: 10px;
+    }
+    .action{
+        display: block;
+        margin-top: 30px;
+        padding: 10px;
+    }
+    .images-play, .images-machine, .images-smart{
+        width: 50px;
+        height: 50px;
+        border-radius: 14px;
+        margin: 0;
+    }
+    .action-item{
+        width: 100%;
+        align-items: flex-start;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    .start-tracking{
+        margin:0;
+        margin-top: 40px;
+    }
+    .bottom{
+        width: 100%;
+    }
+    .easy-to-use{
+        padding: 10px;
+    }
+}
+@media screen and (max-width:640px) {
+    .iphone {
+        width: 409px;
+        height: 600px;
+        top: 502px;
+        z-index: 1;
+        right: 100px;
+    }
+    .background-gradient{
+        top: -142px;
+    }
+}
+@media screen and (max-width:576px){
+    header{
+        width: 591px;
+    }
+    .wrapper{
+        width: 591px;
+    }
+    .gradient{
+        width: 300px;
+        height: 300px;
+    }
+    .orange{
+        width: 300px;
+        height: 300px;
+    }
+    .iphone {
+        width: 409px;
+        height: 600px;
+        top: 502px;
+        z-index: 1;
+        right: 100px;
+    }
+    .background-gradient{
+        top: -142px;
+    }
+    .user-comment{
+        width: 591px;
+    }
+    .start-tracking{
+        margin: auto;
+        width: 591px;
+    }
+    .start-tracking h1{
+        font-size: 35px;
+    }
+    .start-tracking p{
+        padding: 10px;
+    }
+}

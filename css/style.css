@@ -109,7 +109,7 @@ img{
     height: 53px;
     padding-top: 30px;
     padding-left: 20px;
-    width: 450px;
+    width: 100%;
 
 }
 
@@ -125,6 +125,7 @@ img{
     right: -8px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    right: 0;
 }
 .inputSearch a, .inputSearch-bottom a{
     position: absolute;
@@ -440,6 +441,7 @@ img{
     overflow: hidden;
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
 .left{
     height: 1018px;
@@ -586,4 +588,7 @@ p{
 h3{
     opacity: 0.86;
     font-weight: 400;
+}
+.inputSearch-bottom input{
+    width: 460px;
 }
