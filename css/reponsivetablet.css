@@ -1,5 +1,5 @@
 @media screen and (max-width:1366px){
-    .TracksYourShow-title{
+    .tracks-your-show-title{
         font-size: 60px;
     }
 }
@@ -13,7 +13,7 @@
     }
 }
 @media screen and (max-width:1188px){
-    .TracksYourShow-title{
+    .tracks-your-show-title{
         font-size: 50px;
     }
     .iphone-mockup img{
@@ -29,10 +29,10 @@
     }
 }
 @media screen and (max-width:1024px){
-    .TracksYourShow-title{
+    .tracks-your-show-title{
         font-size: 40px;
     }
-    .TracksYourShow-content{
+    .tracks-your-show-content{
         font-size: 18px;
     }
     .inputSearch{
@@ -44,11 +44,11 @@
     .iphone{
         right: 215px;
     }
-    .builtandcustomized h1{
+    .built-and-customized h1{
         font-size: 40px;
         margin-bottom: 0;
     }
-    .builtandcustomized p{
+    .built-and-customized p{
         font-size: 18px;
     }
     .images-play, .images-machine, .images-smart{
@@ -61,7 +61,7 @@
     .content-action p{
         font-weight: 14px;
     }
-    .learnmore{
+    .learn-more{
         margin-top: 5px;
     }
     .easy-to-use{
@@ -122,11 +122,11 @@
     top: 60px;
     right: -85px;
     }
-    .TracksYourShow-title{
+    .tracks-your-show-title{
         font-size: 30px;
         grid-column: 2/6;
     }
-    .TracksYourShow-content{
+    .tracks-your-show-content{
         font-size: 14px;
     }
     .iphone-mockup{
@@ -162,7 +162,7 @@
     .inputSearch{
         width: 100%;
     }
-    .menuMobile{
+    .menu-mobile{
         display: flex;
         justify-content: space-between;
         width: 100%;
@@ -172,45 +172,45 @@
         height: 325px;
         padding: 10px;
     }
-    .mobileMenu{
+    .mobile-menu{
         position: absolute;
         width: 30%;
         z-index: 2;
     }
-    .mobileMenu ul {
+    .mobile-menu ul {
         margin-top: 30px;
         width: 100%;
         display: flex;
         flex-direction: column;
         gap: 3px;
     }
-    .mobileMenu ul li{
+    .mobile-menu ul li{
         background: #DADADA;
         border-bottom: 1px solid #DADADA;
         padding: 10px;
         border-radius: 5px;
     }
-    .mobileMenu ul li:hover{
+    .mobile-menu ul li:hover{
         transform: translateX(20px);
         transition-duration: 0.5s;
     }
-    .menuMobile .logoMobile span:last-child{
+    .menu-mobile .logo-mobile span:last-child{
         color: #540CFA;
     }
-    .logoMobile {
+    .logo-mobile {
         cursor: pointer;
     }
-    .loginMobile button{
+    .login-mobile button{
          width: 102px;
          height: 32px;
          background:#540CFA;
          color: #FFFFFF;
          font-size: 14px;
     }
-    .loginMobile button:first-child{
+    .login-mobile button:first-child{
         display: none;
     }
-    .mobileMenu{
+    .mobile-menu{
         position: absolute;
         left: -1000px;
     }
@@ -221,17 +221,17 @@
         height: auto;
         padding: 10px;
     }
-    .TracksYourShow{
+    .tracks-your-show{
         display: block;
     }
-    .TracksYourShow-title{
+    .tracks-your-show-title{
         font-size: 42px;
         line-height: 44px;
     }
-    .TracksYourShow-content{
+    .tracks-your-show-content{
         font-size: 20px;
     }
-    .builtandcustomized h1{
+    .built-and-customized h1{
         font-size: 30px;
     }
     .inputSearch{
@@ -323,20 +323,20 @@
     .main{
         margin-top: 840px;
     }
-    .builtandcustomized{
+    .built-and-customized{
         margin-top: 140px;
         align-items: flex-start;
         width: 100%;
         padding-left: 10px;
     }
-    .builtandcustomized h1{
+    .built-and-customized h1{
         font-size: 35px;
         width: 343px;
         padding: 0;
         height: auto;
         margin-bottom: 15px;
     }
-    .builtandcustomized h3{
+    .built-and-customized h3{
         font-size: 16px;
         text-align: left;
     }
@@ -431,7 +431,7 @@
     .user-comment{
         width: 590px;
     }
-    .menuMobile{
+    .menu-mobile{
         width: 590px;
     }
     .start-tracking{

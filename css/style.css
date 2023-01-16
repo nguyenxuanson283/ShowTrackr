@@ -35,7 +35,7 @@ button{
     cursor: pointer;
 }
 
-.menuMobile{
+.menu-mobile{
   display: none;
 }
 nav .logo span{
@@ -106,21 +106,21 @@ img{
     align-self: center;
     position: relative;
 }
-.TracksYourShow{
+.tracks-your-show{
     grid-column: 2 / 8;
     grid-row: 3 / 9;
     display: grid;
     grid-template-columns: repeat(13, 1fr);
     grid-template-rows: repeat(3, 1fr);
 }
-.TracksYourShow-title{
+.tracks-your-show-title{
     grid-column: 2 / 8;
     font-size: 70px;
     font-weight: 400;
     line-height: 72px;
     
 }
-.TracksYourShow-content{
+.tracks-your-show-content{
     grid-column: 2/ 6;
     font-size: 21px;
     line-height: 32px;
@@ -258,7 +258,7 @@ img{
     flex-direction: column;
     align-items: center;
 }
-.builtandcustomized{  
+.built-and-customized{  
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -266,14 +266,14 @@ img{
     width: 610px;
     align-content: center;
 }
-.builtandcustomized h1{
+.built-and-customized h1{
     font-size: 60px;
     height: 126px;
     font-weight: 400;
     margin-bottom: 40px;
     padding:0px 2%;
 }
-.builtandcustomized p{
+.built-and-customized p{
     height: 96px;
     font-size: 21px;
 }
@@ -319,19 +319,19 @@ img{
     font-size: 16px;
     opacity: 0.7;
 }
-.learnmore{
+.learn-more{
     display: flex;
     justify-content: center;
 }
-.learnmore button {
+.learn-more button {
     border:none;
     background: unset;
     color: #540CFA;
 }
-.learnmore button:hover{
+.learn-more button:hover{
     cursor: pointer;
 }
-.learnmore .next-btn{
+.learn-more .next-btn{
     position: relative;
      width: 8px; 
      height: 8px; 
@@ -582,7 +582,6 @@ img{
 .start-tracking p{
     font-size: 18px;
     width: 100%;
-    height: 126px;
     text-align: center;
     margin-top: 30px;
     line-height: 32px;

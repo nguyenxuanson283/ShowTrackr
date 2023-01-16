@@ -1,5 +1,5 @@
 @media screen and (max-width:475px){
-    .menuMobile{
+    .menu-mobile{
         width: 475px;
     }
     .wrapper{
@@ -9,10 +9,10 @@
         height: auto;
         padding: 10px;
     }
-    .TracksYourShow{
+    .tracks-your-show{
         display: block;
     }
-    .TracksYourShow-title{
+    .tracks-your-show-title{
         font-size: 42px;
         line-height: 44px;
     }
@@ -67,20 +67,20 @@
     .main{
         margin-top: 840px;
     }
-    .builtandcustomized{
+    .built-and-customized{
         margin-top: 140px;
         align-items: flex-start;
         width: 100%;
         padding-left: 10px;
     }
-    .builtandcustomized h1{
+    .built-and-customized h1{
         font-size: 35px;
         width: 343px;
         padding: 0;
         height: auto;
         margin-bottom: 15px;
     }
-    .builtandcustomized h3{
+    .built-and-customized h3{
         font-size: 16px;
         text-align: left;
     }
@@ -183,4 +183,42 @@
         font-size: 15px;
     }
 }
-/* reponsive lai tu man 500 */
+@media screen and (max-width:375px){
+    .menu-mobile , .start-tracking{
+        width: 375px;
+    }
+    .wrapper{
+        width: 375px;
+    }
+    .easy-to-use{
+        width: 375px;
+    }
+    .easy-to-use-interfaces{
+        width: 375px;
+    }
+    .easy-to-use-interfaces p{
+        width: 100%;
+    }
+    .user-comment{
+        width: 375px;
+        margin-bottom: 50px;
+    }
+    .community{
+        width: 375px;
+    }
+    .community p{
+        width: 100%;
+    }
+    .community h1{
+        font-size: 30px;
+    }
+    .start-tracking h1{
+        font-size: 30px;
+    }
+    .inputSearch input{
+        width: 325px;
+    }
+    .inputSearch button{
+        right: 17px;
+    }
+}
