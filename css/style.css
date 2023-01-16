@@ -580,8 +580,8 @@ img{
     text-align: center;
 }
 .start-tracking p{
-    font-size: 18px;
-    width: 100%;
+    font-size: 21px;
+    width: 50%;
     text-align: center;
     margin-top: 30px;
     line-height: 32px;
@@ -605,6 +605,7 @@ img{
 .bottom div p{
     font-size: 18px;
     margin-top: unset;
+    width: 100%;
 }
 .bottom ul li a{
     width: 33px;
@@ -628,4 +629,9 @@ h3{
 }
 .inputSearch-bottom input{
     width: 460px;
+}
+.mobile-menu{
+    display: none;
+    position: fixed;
+    top:-200px
 }

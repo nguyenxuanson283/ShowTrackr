@@ -227,4 +227,10 @@
     .built-and-customized{
         margin-top: 0;
     }
+    .mobile-menu ul li a {
+        font-size: 13px;
+    }
+    .mobile-menu ul li div{
+        font-size: 13px;
+    }
 }
