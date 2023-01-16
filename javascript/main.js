@@ -21,6 +21,8 @@ function outSide(){
     menu.style.left = "-1000px"
     menu.style.transitionDuration="1s"
 }
-function slideScroll(item){
-    item.scrollLeft += "-220px"
+
+function reverse(){
+    var slider = document.getElementById('slider')
+    console.log("ok")
 }

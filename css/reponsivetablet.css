@@ -98,10 +98,16 @@
     .start-tracking p{
         margin-top: 0;
     }
+    .inputSearch{
+        width: 100%;
+    }
 }
-@media screen and (max-width:930px) {
+@media screen and (max-width:960px) {
     .comment{
         width: 60%;
+    }
+    .inputSearch{
+        width: 100%;
     }
 }
 @media screen and (max-width:880px) {
@@ -140,8 +146,22 @@
     .comment{
         width: 64%;
     }
+    .inputSearch input{
+        padding-left: 5px;
+    }
+    .inputSearch a{
+        left: 5px;
+    }
+}
+@media screen and (max-width:863px){
+    .inputSearch{
+        width: 100%;
+    }
 }
 @media screen and (max-width:768px){
+    .inputSearch{
+        width: 100%;
+    }
     .menuMobile{
         display: flex;
         justify-content: space-between;
@@ -365,12 +385,12 @@
         top: -142px;
     }
 }
-@media screen and (max-width:576px){
+@media screen and (max-width:600px){
     header{
-        width: 591px;
+        width: 100%
     }
     .wrapper{
-        width: 591px;
+        width: 100%
     }
     .gradient{
         width: 300px;
@@ -391,16 +411,38 @@
         top: -142px;
     }
     .user-comment{
-        width: 591px;
+        width: 100%
     }
     .start-tracking{
         margin: auto;
-        width: 591px;
+        width: 100%
     }
     .start-tracking h1{
-        font-size: 35px;
+        font-size: 38px;
     }
     .start-tracking p{
         padding: 10px;
+    }
+}
+@media screen and (max-width:575px){
+    .wrapper{
+        width: 590px;
+    }
+    .user-comment{
+        width: 590px;
+    }
+    .menuMobile{
+        width: 590px;
+    }
+    .start-tracking{
+        width: 575px;
+    }
+    .start-tracking h1 {
+        font-size: 30px;
+    }
+    .start-tracking p {
+        font-size: 16px;
+        margin: auto;
+        width: 100%;
     }
 }

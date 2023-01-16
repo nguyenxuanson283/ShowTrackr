@@ -1,10 +1,9 @@
-@media screen and (max-width:460px){
-    header{
-        width: 460px;
-        padding: 10px;
+@media screen and (max-width:475px){
+    .menuMobile{
+        width: 475px;
     }
     .wrapper{
-        width: 460px;
+        width: 475px;
     }
     .banner{
         height: auto;
@@ -115,10 +114,10 @@
         padding: 10px;
         overflow:hidden;
         height: auto;
-        width: 460px;
+        width: 475px;
     }
     .community{
-        width: 460px;
+        width: 475px;
     }
     .community h1{
         font-size: 35px;
@@ -147,14 +146,14 @@
     }
     .easy-to-use{
         margin:0;
-        width: 460px;
+        width: 475px;
     }
     .easy-to-use-interfaces{
         padding: 10px;
-        width: 460px;
+        width: 475px;
     }
     .start-tracking{
-        width: 460px;
+        width: 475px;
         height: auto;
     }
     .start-tracking h1{
@@ -179,3 +178,9 @@
         width: 343px;
     }
 }
+@media screen and (max-width:425px) {
+    .start-tracking h1{
+        font-size: 15px;
+    }
+}
+/* reponsive lai tu man 500 */
