@@ -221,4 +221,10 @@
     .inputSearch button{
         right: 17px;
     }
+    .background-gradient{
+        top:-367px;
+    }
+    .built-and-customized{
+        margin-top: 0;
+    }
 }
